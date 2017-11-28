@@ -1,0 +1,400 @@
+# Translation of Themes - Sixteen in Japanese
+# This file is distributed under the same license as the Themes - Sixteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-20 01:41:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Sixteen\n"
+
+#. Theme Name of the plugin/theme
+msgid "Sixteen"
+msgstr "Sixteen"
+
+#. Template Name of the plugin/theme
+msgid "Blank Page (To show Only Sliders or Custom Content)"
+msgstr "空白のページ（スライダーまたはカスタムコンテンツのみを表示する）"
+
+#: inc/customizer.php:252
+msgid "Discover SIXTEEN PLUS"
+msgstr "SIXTEEN PLUS について"
+
+#: inc/customizer.php:392
+msgid " Url"
+msgstr " URL"
+
+#: inc/customizer.php:379 inc/customizer.php:392
+msgid "Icon "
+msgstr "アイコン"
+
+#: inc/customizer.php:363
+msgid "RSS Feeds"
+msgstr "RSS フィード"
+
+#: inc/customizer.php:358
+msgid "-"
+msgstr "-"
+
+#: inc/customizer.php:353
+msgid "Social Icons"
+msgstr "ソーシャルアイコン"
+
+#: inc/customizer.php:328
+msgid "Enter your Own Copyright Text."
+msgstr "独自の著作権テキストを追加。"
+
+#: inc/customizer.php:327
+msgid "Custom Footer Text"
+msgstr "カスタムフッターテキスト"
+
+#: inc/customizer.php:293
+msgid "Enter your Custom CSS to Modify design."
+msgstr "カスタム CSS を入力してデザインを変更します。"
+
+#: inc/customizer.php:267
+msgid "More of Everything"
+msgstr "すべての詳細"
+
+#: inc/customizer.php:224
+msgid "Switch Sidebar to Left Side"
+msgstr "サイドバーを左側に切り替え"
+
+#: inc/customizer.php:210
+msgid "Sidebar Locations"
+msgstr "サイドバーの位置"
+
+#: inc/customizer.php:194
+msgid "Target URL"
+msgstr "ターゲット URL"
+
+#: inc/customizer.php:179
+msgid "Slide Description"
+msgstr "スライドの説明"
+
+#: inc/customizer.php:165
+msgid "Slide Title"
+msgstr "スライドのタイトル"
+
+#: inc/customizer.php:116
+msgid "Save the Settings, and Reload this page to Configure the Slides."
+msgstr "設定を保存し、このページを再読み込みしてスライドを設定します。"
+
+#: inc/customizer.php:113
+msgid "No. of Slides(Min:0, Max: 5)"
+msgstr "スライド数 (最小0、最大5)"
+
+#: inc/customizer.php:80
+msgid "Enable/Disable"
+msgstr "有効化/無効化"
+
+#: inc/customizer.php:55
+msgid "Site Title Color"
+msgstr "サイト名の色"
+
+#: inc/customizer.php:34
+msgid "Upload Logo"
+msgstr "ロゴをアップロード"
+
+#: inc/customizer.php:21
+msgid "Title, Tagline & Logo"
+msgstr "タイトル、タグライン、ロゴ"
+
+#. Template Name of the plugin/theme
+msgid "Full Width(No Sidebar)"
+msgstr "全幅 (サイドバーなし)"
+
+#. Template Name of the plugin/theme
+msgid "Full Width(No Sidebar & No Title)"
+msgstr "全幅 (サイドバーとタイトルなし)"
+
+#: sidebar.php:20
+msgid "Meta"
+msgstr "メタ情報"
+
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr "検索"
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "検索 &hellip;"
+
+#: searchform.php:10
+msgctxt "label"
+msgid "Search for:"
+msgstr "検索:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#: inc/customizer.php:364
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/customizer.php:362
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:361
+msgid "Google Plus"
+msgstr "Google+"
+
+#: inc/customizer.php:360
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:359
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:95
+msgid "Enable Slider."
+msgstr "スライダーを有効化。"
+
+#: inc/customizer.php:292
+msgid "Custom CSS"
+msgstr "カスタム CSS"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: inc/template-tags.php:185
+msgid "<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">発行%1$s </ span>の<span class=\"byline\">によって%2$s </ span>の"
+
+#: inc/template-tags.php:94
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: inc/template-tags.php:87
+msgctxt "1: date"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しい投稿 <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 過去の投稿"
+
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:38
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: home.php:16
+msgid "Recent Posts"
+msgstr "最近の投稿"
+
+#: header.php:48
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#: header.php:47
+msgid "Menu"
+msgstr "メニュー"
+
+#: functions.php:77
+msgid "Footer Right"
+msgstr "フッター右"
+
+#: functions.php:68
+msgid "Footer Center"
+msgstr "フッター中央"
+
+#: functions.php:59
+msgid "Footer Left"
+msgstr "フッター左"
+
+#: functions.php:50
+msgid "Primary Sidebar"
+msgstr "メインサイドバー"
+
+#: functions.php:26
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: footer.php:17
+msgid "Sixteen Theme by %1$s"
+msgstr "Sixteen Theme by %1$s"
+
+#: content.php:58
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: content.php:58
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: content.php:58
+msgid "Leave a comment"
+msgstr "コメントする"
+
+#: content.php:52
+msgid "Tagged %1$s"
+msgstr "タグ:  %1$s"
+
+#: content.php:42
+msgid "Posted in %1$s"
+msgstr "カテゴリー: %1$s"
+
+#: content.php:24
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-single.php:52
+msgid "This entry was posted in %1$s."
+msgstr "カテゴリー: %1$s"
+
+#: content-single.php:50
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "カテゴリー: %1$s タグ: %2$s"
+
+#: content-single.php:42
+msgid "This entry was tagged %2$s."
+msgstr "タグ: %2$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:34 content-single.php:37 content.php:38 content.php:48
+msgid ", "
+msgstr "、"
+
+#: content-page-no-title.php:20 content-page.php:23 content-single.php:64
+#: content.php:61 inc/template-tags.php:71 inc/template-tags.php:90
+msgid "Edit"
+msgstr "編集"
+
+#: content-page-no-title.php:15 content-page.php:18 content-single.php:25
+#: content.php:27
+msgid "Pages:"
+msgstr "ページ:"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; 過去のコメント"
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; への%1$s件のフィードバック"
+
+#: archive.php:63 sidebar.php:13
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: archive.php:60
+msgid "Links"
+msgstr "リンク"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "引用"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "動画"
+
+#: archive.php:51
+msgid "Images"
+msgstr "画像"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "アサイド"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "﻿年別: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "月別: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "﻿日別: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "作者別: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "月別アーカイブを探してみてください: %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "よく使われているカテゴリー"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "このページは見つかりません。"
+
+#. Author URI of the plugin/theme
+msgid "http://inkhive.com"
+msgstr "http://inkhive.com"
+
+#. Author of the plugin/theme
+msgid "Rohit Tripathi"
+msgstr "Rohit Tripathi"
+
+#. Theme URI of the plugin/theme
+msgid "http://inkhive.com/product/sixteen/"
+msgstr "http://inkhive.com/product/sixteen/"

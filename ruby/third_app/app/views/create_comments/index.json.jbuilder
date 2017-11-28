@@ -1,0 +1,1 @@
+json.array! @create_comments, partial: 'create_comments/create_comment', as: :create_comment

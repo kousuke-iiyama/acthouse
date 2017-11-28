@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Create Comments</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Comment</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @create_comments.each do |create_comment| %>
+      <tr>
+        <td><%= create_comment.name %></td>
+        <td><%= create_comment.comment %></td>
+        <td><%= link_to 'Show', create_comment %></td>
+        <td><%= link_to 'Edit', edit_create_comment_path(create_comment) %></td>
+        <td><%= link_to 'Destroy', create_comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Create Comment', new_create_comment_path %>

@@ -1,0 +1,763 @@
+/*
+Theme Name:マスターベーションのテーマ
+Theme URI:htttp://github.com/
+Author: Kosuke Iiyama;
+Version:1.0
+Description:すみません
+Tags:blog,one-column
+*/
+
+
+
+#wrapper{
+	height:2200px;
+}
+
+
+a:link { color :black; }
+a:visited { color :black; }
+
+.bgImage{
+  background: url("meshiyama.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;/*ブラー効果でボヤけた部分を非表示*/
+
+}
+
+/*:beforeにぼかし効果を設定する*/
+.bgImage:before{
+  content: '';
+  background: inherit;/*.bgImageで設定した背景画像を継承する*/
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: absolute;
+  /*ブラー効果で画像の端がボヤけた分だけ位置を調整*/
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;/*重なり順序を一番下にしておく*/
+}
+/*.bgImage p{
+  margin: 150px 0 200px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 34px;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0,0,0,.4);
+}*/
+
+/*.meshilogo{
+background-image:url("meshikun.jpg");
+}*/
+
+
+
+.inner{
+ margin:0 10px;
+}
+.main_title{
+	font-family: "ＭＳ 明朝",serif; 
+	margin-left:200px;
+	text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+             black 1px -1px 0px, black -1px -1px 0px;
+}
+
+.header p{
+  position:absolute;
+  bottom:5px;
+  left:30px;
+  width:300px;
+  text-align:center;
+  color:#fff;
+  line-height:250%;
+  background-color:#000;
+  filter:alpha(opacity=80);
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+
+.header p:hover{
+	opacity:0.8;
+}
+
+.header{
+	position:relative;
+	width:900px;
+	height:500px;
+}
+
+
+.blog_title{
+	text-align:center;
+	/*font-style:italic;*/
+	color:white;
+ /* background-color:rgba(204,204,204,0.4);*/
+  background-image:url('chaos2.png');
+  background-size:contain;
+
+  border-radius: 4px 4px 4px 4px;
+	font-size:150%;
+	margin:0 30px;
+	margin-bottom:30px;
+	padding-top:10px;
+	font-family: arial, sans-serif;
+	height:200px;
+	/*font-family:'Lucida Grande','Hiragino Kaku Gothic ProN',
+ Meiryo, sans-serif;*/
+/*	font-family:fantasy;*/
+}
+
+.description{
+	font-style:oblique;
+	color:white;
+	text-align:center;
+}
+
+#social-icon a {
+  display: block;
+  float: right;
+  margin: 0 5px 5px 0;
+  padding: 0;
+  color: #fff;
+}
+#social-icon i {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+#social-icon i:before { padding 0; line-height: 50px; }
+#social-icon .fa-twitter { background: #00a1e9; }
+#social-icon .fa-facebook { background: #3b5998; }
+#social-icon .fa-google-plus { background: #c53727; }
+#social-icon .fa-rss { background: #ff8c00;}
+
+/*.myself{
+ font-size:20px;
+ text-align:center;
+}*/
+
+
+.sidebar{
+	width:340px;
+  float:left;
+  border: 2px solid #ccc;
+	background-color:rgba(204,204,204,0.4);
+	border-radius: 4px 4px 4px 4px;
+	padding-bottom: 20px;
+	margin-left:30px;
+	margin-top:30px;
+	 box-shadow: 1px 3px 7px 2px rgba(0,0,0,0.4);
+/*background-image:url(muji.jpeg);*/
+}
+
+
+.sidebar_single{
+ 	width:340px;
+  border: 2px solid #ccc;
+	background-color:rgba(204,204,204,0.4);
+	border-radius: 4px 4px 4px 4px;
+	padding-bottom: 20px;
+	margin-left:30px;
+	margin-top:90px;
+
+	/*position:absolute;
+	top:150px;
+	right:30px;*/
+}
+
+.single_content{
+ width:640px;
+/* display:inline-block;
+ float:left;*/
+ position:absolute;
+ left:400px;
+ top:240px;
+ /* float:left;*/
+/*background-image:url(http://stat100.ameba.jp/common_style/img/skin/cmn/bg/transparent/transparent_fff_8.png);*/
+  list-style:none;
+  background-color:rgba(204,204,204,0.6);
+  border-radius: 4px 4px 4px 4px;
+  border: 2px solid #ccc;
+  margin-right:30px;
+  margin-top:60px;
+  margin-bottom:40px;
+  border: 2px solid #ccc;
+  list-style:none;
+}
+
+.adv{
+	position:absolute;
+	top:300px;
+	right:60px;
+	border:1px solid black;
+}
+
+.content{
+  /*width:460px;*/
+  width:30%;
+  float:right;
+/*background-image:url(http://stat100.ameba.jp/common_style/img/skin/cmn/bg/transparent/transparent_fff_8.png);*/
+  list-style:none;
+  background-color:rgba(204,204,204,0.4);
+  border-radius: 4px 4px 4px 4px;
+  padding-left:30px;
+  padding-right:30px;
+  margin-right:30px;
+  margin-top:60px;
+  margin-bottom:40px;
+  border: 2px solid #ccc;
+  box-shadow: 1px 3px 7px 2px rgba(0,0,0,0.4);
+}
+
+
+
+.new_posts{
+	color: #ffffff ;
+    background: #73b7bb;
+    font-size: 16pt ;
+    line-height: 1;
+    margin: 20px 15px 20px -15px;
+    padding: 10px 5px 10px 20px;
+    box-shadow:1px 3px 7px 0px  #666666 ;
+    border-top:3px solid #ff6347;
+    list-style:none;
+	/*color:white;
+	text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+             black 1px -1px 0px, black -1px -1px 0px;*/
+}
+
+
+
+
+.bgmaximage{
+  position:fixed !important;
+  display:none;
+}
+      
+#maincontent {
+  position: absolute;
+t  op: 0;
+l  eft: 0;
+  z-index: 50;
+  width: 100%;
+}
+
+#globalnavi{
+  margin: 0;
+  padding: 0;
+  width: ***;
+  margin-left:30px;
+}
+
+#globalnavi ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#globalnavi li{
+  float: left;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+#globalnavi a{
+  text-align: center;
+  display:block;
+  padding: 0.5em 0;
+  width: 100%;
+  background-color: #73b7bb;
+  color: white;
+}
+
+#globalnavi a:hover{
+  background-color: red;
+  color: white;
+}
+
+.profile{
+  color: #ffffff ;
+  background: #73b7bb;
+  font-size: 16pt ;
+  line-height: 1;
+  margin: 20px 15px 20px -15px;
+  padding: 10px 5px 10px 20px;
+  box-shadow:1px 3px 7px 0px  #666666 ;
+  border-top:3px solid #ff6347;
+  list-style:none;
+
+}
+
+#profile_image{
+	/*clear:left;*/
+	float:left;
+	margin-left:400px;
+	margin-bottom:30px;
+	z-index:10;
+	/*position:relative;*/
+}
+#profile_image img{
+ /*border-radius: 150px;
+ -moz-border-image: border-radius: 150px;
+ -webkit-border-image: border-radius: 150px;*/
+ border-radius: 60px;
+ -moz-border-image: border-radius: 60px;
+ -webkit-border-image: border-radius: 60px;
+ margin-top:30px;
+}
+
+#profile_text{
+	width:680px;
+	background-color:rgba(204,204,204,0.4);
+  border: 2px solid #ccc;
+/*float:right;*/
+  margin-left:260px;
+  margin-top:90px;
+  margin-bottom:30px;
+  padding-left:10px;
+  z-index:0;
+ /* position:absolute;
+  top:500px;
+  left:450px;*/
+  /*float:right;*/
+}
+
+#profile_content{
+	margin:auto;
+  margin-left:100px;
+}
+
+.box{
+  position:absolute;
+	width: 300px; /* 吹き出しの幅 */
+	height: 60px; /* 吹き出しの高さ */
+	top: -76px; /* 吹き出しと三角形の高さをプラスした値 */
+	left: 0;
+	border-radius: 10px 10px 10px 10px;
+	/*background-color: #0f0;*/
+	background-color:rgba(204,204,204,0.4);
+  border-radius: 4px 4px 4px 4px;
+  border: 2px solid #ccc;
+	display: none;
+}
+
+.box:after { /* 三角形を作成 */
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	top: 60px; /* 吹き出しの高さと同じ値 */
+	left: 32px;
+	border: 16px solid transparent;
+	border-top: 16px solid #0f0;
+}
+.text {
+	font-size: 16px;
+	position: absolute;
+	top: 8px;
+	left: 4px;
+	color: #000;
+}
+#profile_image:hover .box {
+	z-index: 2;
+	display: block;
+}
+
+#meshilogo{
+	width:400px;
+	height:400px;
+	float:right;
+	margin-right:30px;
+	margin-top:250px;
+	z-index:0;
+	overflow:hidden;
+}
+
+.eye_catch img{
+	border:double 5px #333333 ;
+	width:100%%;
+}
+
+
+
+.demo {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-family: sans-serif;
+  font-size: 20px;
+  color:white;
+  border-bottom:solid 1px black;
+}
+.heading {
+  margin: 10px 0
+}
+
+.demo11 .heading text {
+  stroke: white;
+  stroke-width: 1.5;
+  fill: rgba(60,179,228,0.2);
+  font-size: 50px;
+}
+
+.unknown{
+	width:400px;
+	height:200px;
+	background-color:rgba(204,204,204,0.4);
+  border-radius: 4px 4px 4px 4px;
+  border: 2px solid #ccc;
+  position:absolute;
+  top:900px;
+  left:420px;
+
+}
+
+div#main-visual{
+  width: 252px;
+  height: 251px;
+  overflow: hidden;
+  border-radius: 150px 150px 150px 150px;
+  position:absolute;
+  top:150px;
+  right:100px;
+}
+
+div#main-visual_2{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 150px 150px 150px 150px;
+  position:absolute;
+  top:250px;
+  left:100px;
+}
+
+div#main-visual_3{
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 150px 150px 150px 150px;
+  position:absolute;
+  top:300px;
+  right:100px;
+}
+
+
+.sidebar_about{
+	width:340px;
+  /*float:left;*/
+  border: 2px solid #ccc;
+	background-color:rgba(204,204,204,0.4);
+	border-radius: 4px 4px 4px 4px;
+	padding-bottom: 20px;
+	/*position:absolute;*/
+	/*top:150px;
+	left:30px;*/
+	/*margin-left:30px;
+	margin-top:30px*/
+
+}
+
+.data{
+	color:white;
+	font-family:serif;
+	padding-left:15px;
+}
+
+.title{
+	color:#333333;
+	padding-left:15px;
+}
+
+.article{
+	padding-left:15px;
+	padding^right:15px;
+}
+
+.post-categories{
+ list-style:none;
+ color:white;
+ padding-left:15px;
+}
+
+.post-categories a{
+	border:solid 1px black;
+	padding:5px 10px;
+	background-color:#73b7bb;
+}
+
+#alpr{
+	font-size:30px;
+	color:skyblue;
+	text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+             black 1px -1px 0px, b欲>>>||>>>性欲lack -1px -1px 0px;
+}
+
+.sidebar li{
+	list-style:none;
+}
+.widgettitle{
+    color: #ffffff ;
+    background: #73b7bb;
+    font-size: 16pt ;
+    line-height: 1;
+    margin: 20px 15px 20px -15px;
+    padding: 10px 5px 10px 20px;
+    box-shadow:1px 3px 7px 0px  #666666 ;
+    border-top:3px solid #ff6347;
+    list-style:none;
+}
+
+.textwidget img{
+	border:5px double black;
+}
+
+a.facebook-iine{
+width:50px;
+padding:5px 0;
+color:#fff;
+text-align:center;
+background-color:#3b5998;
+height:30px;
+display:block;
+text-decoration:none;
+font-size:10px;
+float:left;
+margin-bottom:10px;
+}
+ 
+a.facebook-iine:hover{
+background-color:#6277a1;
+}
+ 
+a.twitter-tweet{
+width:50px;
+padding:5px 0;
+color:#fff;
+text-align:center;
+background-color:#00acee;
+height:30px;
+display:block;
+text-decoration:none;
+font-size:10px;
+float:left;
+margin-bottom:10px;
+}
+ 
+a.twitter-tweet:hover{
+background-color:#6aafca;
+}
+
+
+/* 黒板 */
+#postit_box,
+#postit_box * {
+    font-family: "HuiFont29",Verdana,sans-serif;
+}
+#postit_box {
+	position:absolute;
+	top:300px;
+	left:400px;
+    width:400px; height:24em;
+    margin:0; padding:0;
+    background:transparent url(/content/img/css/bg_blackboard.png) repeat 0 0;
+    overflow:hidden;
+    font-size:15px;
+}
+
+/* ポストイット */
+#postit_box .postit {
+    position: absolute;
+    width:8em;
+    margin:0; padding:10px;
+    top:40px; right:30px;
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    background-color:#faf7e0;
+    color:#908a60;
+    -moz-box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.25);
+    box-sizing:border-box;
+}
+#postit_box .postit.post2 {
+    left:30px;
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+}
+#postit_box .postit.post3 {
+    left:180px;
+    width:13em;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+}
+/* クリップ */
+#postit_box .postit::after {
+    content: url(/content/img/css/tape.png);
+    position: absolute;
+    top:-15px; left:20px;
+}
+#postit_box .postit.post3::after {
+    left:40px;
+}
+/* 下線 */
+#postit_box .postit span {
+    display:block;
+    border-bottom:1px dotted #908a60;
+}
+
+
+
+@media screen and ( max-width:1360px ){
+	#meshilogo{
+ /*display:none;*/
+/* width:150px;
+ height:150px;*/
+ position:absolute;
+ display:inline;
+ width:10%;
+ top:10%;
+ right:5%;
+ margin:0;
+	}
+.meshi1{
+/*	width:100px;
+	height:100px;*/
+		width:80%;
+	height:30%;
+}
+.meshi2{
+		width:80%;
+	height:30%;
+	/*width:100px;
+	height:100px;*/
+}
+.meshi3{
+		width:80%;
+	height:30%;
+/*	width:100px;
+	height:100px;*/
+}
+
+	#postit_box{
+		display:none;
+	}
+ .content{
+		/*width:500px;*/
+		width:40%;
+
+		margin-right:100px;
+	}
+ .sidebar{
+		/*width:300px*/;
+		width:30%;
+		margin-left:100px;
+	}
+	#globalnavi{
+		margin-left:100px;
+	}
+ .textwidget img{
+  	width:80%;
+  	height:10%;
+  }
+  .adv{
+  	display:none;
+  }
+
+  .single_content{
+  	width:50%;
+  	margin:0;
+  	margin-left:0 10px;
+  	margin-top:60px;
+  }
+
+  .sidebar_single{
+  	width:300px%;
+  }
+}
+
+@media screen and (max-width:960px){
+  .content{
+ /*width:400px;*/
+ width:60%;
+}
+  .sidebar{
+	/*width:250px;*/
+	width:60%;
+}
+  .textwidget img{
+/*width:150px;
+height:150px;*/
+width:80%;
+height:10%;
+}
+ .single_content{
+ 	position:static;
+ /*width:400px;*/
+ width:60%;
+ margin:0;
+ margin-top:13%;
+ margin-left:13%;
+}
+  .sidebar_single{
+  	display:none;
+
+	/*width:250px;*/
+	width:60%;
+}
+}
+@media screen and (max-width:800px){
+  .content{
+	/*width:500px;*/
+	width:70%;
+}
+
+  .eyecatch img{
+	width:60%;
+}
+
+.sidebar{
+	/*width:560px;*/
+	width:78%;
+	float:right;
+	margin-right:14%;
+}
+.textwidget img{
+	width:60%;
+  /*height:5%;*/
+/*width:250px;
+height:250px;*/
+}
+.blog_title{
+	width:100%;
+	margin:0;
+}
+
+#glovalnavi{
+	width:100%;
+	margin:0;
+	margin-top:10px;
+}
+
+#meshilogo{
+	display:none;
+}
+
+.single_sidebar{
+	margin:0;
+	margin-top:100px;
+}
+
+}

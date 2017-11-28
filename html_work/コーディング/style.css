@@ -1,0 +1,445 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	/*width:1600px;
+	height:2180px;*/
+	/*width:1200px;*/
+	/*height:1640px;*/
+	width:100%;
+	/*height:100%;
+*/	/*width:1280px;*/
+}
+/*--ナビゲーション^--------*/
+#nav{
+	/*width:240px;*/
+	width:15%;
+	float:left;
+	display:inline-block;
+
+}
+
+.company-info:hover{
+  opacity:0.8;
+}
+
+.future:hover{
+	opacity:0.8;
+}
+
+.staff-interview1:hover{
+	opacity:0.8;
+}
+
+.application1:hover{
+	opacity:0.8;
+}
+
+#nav img{
+	/*width:75%;*/
+	width:100%;
+}
+/*--コンテンツ--------------*/
+#content{
+	float:left;
+	width:85%;
+  /*width:1360px;*/
+}
+
+.first{
+	/*width:1360px;*/
+	/*height:549px;*/
+/*	height:25%;*/
+
+  width:100%;
+ /* height:100%;*/
+	background-image:url(images/first-view02.jpg);
+	background-size:100% auto;
+	position:relative;
+}
+/*
+.first:before{
+	content:"";
+	display:block;
+	padding-top:40.5%;
+}*/
+
+.first img{
+	position:absolute;
+	top:4%;
+	left:80%;
+}
+
+
+.first p{
+	/*font-size:14px;*/
+	/*padding-top:321px;
+	padding-left:690px;*/
+	font-size:12px;
+	padding-top:23.4%;
+	padding-left:50.7%;
+}
+/*--二枚目--------------------- */
+.second {
+	line-height:0;
+	font-size:0;
+}
+
+.second img{
+	width:100%;
+}
+
+.second img:hover{
+  opacity:0.8;
+}
+/*--三枚目----------------- */
+.comment-mark{
+/*	margin-top:60px;
+	margin-left:655px;*/
+	margin-top:4%;
+	margin-left:47.4%;
+}
+
+#third{
+	background-image:url(images/third-background_14.jpg);
+	/*background-color:#f8fcf5;*/
+	width:100%;
+	position:relative;
+	background-size:100% auto;
+	/*height:1182px;*/
+}
+
+.staff-interview{
+/*	font-size:30px;
+	margin-top:30px;
+	margin-left:538px;*/
+	font-size:25.5px;
+	/*margin-top:25.5px;*/
+	margin-top:1.86%;
+	/*margin-left:457px;*/
+	margin-left:39%;
+}
+
+.staff-interview2{
+	/*font-size:15px;
+	margin-top:2px;
+	margin-left:614px;*/
+	color:#71af42;
+	font-size:12.75px;
+	margin-top:2px;
+	margin-left:44.5%;
+}
+
+.mongon{
+	/*font-size:14px;
+	margin-top:20px;
+	margin-left:437px;*/
+	font-size:12px;
+	margin-top:1.46%;
+	margin-left:33.1%;
+}
+
+#staff{
+	/*width:1360px;*/
+}
+#staff p{
+	font-size:15px;
+	color:white;
+	/*ゴシック体 */
+}
+/*--一人目-----------------*/
+
+.staff01{
+	/*display:inline-block;*/
+	float:left;
+	/*margin-left:14px;*/
+	margin-left:1.03%;
+}
+.frame01{
+
+	border:solid 3px green;
+  /* width:17.4%;
+   height:31%;*/
+   position:absolute;
+   left:1.0%;
+   margin-top:1.2%;
+   width:18.7%;
+   height:35.7%;
+}
+
+.name-figure01{
+   position:absolute;
+	 left:1.0%;
+	
+}
+
+/*--二人目------------------*/
+
+/*.staff02{
+	float:left;
+	margin-left:1.03%;
+}*/
+
+.frame02{
+   border:solid 3px #71af42;
+   width:18.3%;
+   height:31.5%;
+   position:absolute;
+   left:20.5%;
+   margin-top:1.5%;
+
+}
+
+.name-figure02{
+   position:absolute;
+	 left:20%;
+	 margin-top:0.5%;
+}
+
+/*--三人目---------------------------------------*/
+
+/*--外側の枠線-------*/
+.frame03{
+/*	width:254px;
+	height:400px;
+	position:absolute;
+	top:1405px;
+  left:800px;*/
+
+  border:solid 3px #00984b;
+/*  width:18.0%;
+	height:54.0%;
+	position:absolute;
+	left:56%;
+  margin-top:1.5%;*/
+	/*top:1200px;*/
+   /*240px/1360px= */
+	 width:18.3%;
+/*	height:45.9%;*/
+   height:31.5%;
+	position:absolute;
+	left:56%;
+  margin-top:1.5%;
+}
+
+/*.frame03:hover{
+	box-sizing: border-box;
+	border:solid 10px #00984b;
+	width:254px;
+	height:400px;
+	position:absolute;
+	top:1400px;
+  left:800px;
+}*/
+
+/*名前プレーと---*/
+.nameplate03{
+	/*position:absolute;
+	top:1760px;
+	left:800px;*/
+	position:absolute;
+	left:56%;
+	margin-top:23%;
+}
+
+/* 名前------ */
+/*.staff03 p{
+	font-size:15px;
+	color:white;
+	position:absolute;
+	top:1760px;
+	left:864px;
+}*/
+
+.staff03:hover .frame03{
+	box-sizing: border-box;
+	/*border:solid 10px #00984b;
+	width:254px;
+	height:400px;
+	position:absolute;
+	top:1400px;
+  left:800px;*/
+
+  border:solid 8.5px #00984b;
+  width:18.3%;
+	height:31.5%;
+	position:absolute;
+	left:56%;
+  margin-top:1.5%;
+}
+
+/* 人物---- */
+.figure03 {
+/*  position:absolute;
+  top:1380px;
+  left:840px;*/
+
+  position:absolute;
+  left:58%;
+  margin-top:0.5%;
+
+}
+
+.name-figure03{
+	position:absolute;
+	left:56%;
+	margin-top:2%;
+}
+
+.staff03{
+	position:static;
+	float:left;
+	display:inline-block;
+	/*width:254px;
+	height:400px;*/
+	/*display:block;
+	float:left;
+	margin-top:20px;
+	margin-left:14px;*/
+	/*border:solid 3px #00984b;*/
+}
+
+
+/*---四人目----------------------------------------------------*/
+
+.frame04{
+	width:254px;
+	height:400px;
+	position:absolute;
+	top:1405px;
+  left:1075px;
+  border:solid 3px #9ec238;
+}
+
+/*.frame04:hover{
+	box-sizing: border-box;
+	border:solid 10px #9ec238;
+	width:254px;
+	height:400px;
+	position:absolute;
+	top:1405px;
+  left:1075px;
+}*/
+
+.nameplate04{
+	position:absolute;
+	top:1760px;
+	left:1075px;
+}
+
+.figure04{
+	  position:absolute;
+  top:1380px;
+  left:1135px;
+
+}
+
+.staff04 p{
+	font-size:15px;
+	color:white;
+	position:absolute;
+	top:1760px;
+	left:1139px;
+}
+.staff04:hover .frame04 {
+	box-sizing: border-box;
+	border:solid 10px #9ec238;
+	width:254px;
+	height:400px;
+	position:absolute;
+	top:1405px;
+  left:1075px;
+}
+
+
+
+/*--五人目---------------------------------------------------*/
+
+.clear{
+  clear:left;
+}
+
+.application{
+/*	margin-top:40px;
+	margin-left:230px;*/
+	display:inline-block;
+	position:absolute;
+	top:80%;
+	left:16.9%;
+}
+
+.mynavi{
+ /*margin-top:40px;*/
+ /*margin-left:590px;*/
+ display:inline-block;
+ position:absolute;
+ top:80%;
+ left:43.4%;
+/* float:left*/
+}
+
+.top-buttom{
+	position:absolute;
+	top:80%;
+ /*position:absolute;
+ left:1500px;
+ top:2000px;*/
+}
+
+.footer{
+	margin-top:55px;
+}
+
+.footer img{
+ display:inline-block;
+	margin-left:16px;
+}
+
+.address{
+
+}
+
+.company-name{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.responsive01{
+	display:none;
+}
+
+.responsive02{
+	display:none;
+}
+
+/*-----スマホ用ページ ---------------------------------------------   */
+@media screen and ( max-width:768px ){
+
+/*#wrapper{
+	max-width:768px;
+}
+
+img {
+	width:48%;
+	max-width:768px;
+	width:auto;
+}
+
+#nav{
+	display:none;
+}*/
+}
+
+@media screen and ( max-width:480px ){
+#nav{
+	display:none;
+}
+
+
+}
+
+
+
+
+

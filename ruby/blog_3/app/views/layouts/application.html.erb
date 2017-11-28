@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog3</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <div id="nav">
+    <% if current_user %>
+       <%= link_to 'Edit profile',edit_user_path(current_user) %>
+       <%= link_to "Logout",:logout,method: :post %>
+     <% else %>
+       <%= link_to "Register", new_user_path %>
+       <%= link_to "Login" ,:login %>
+    <% end %>
+
+  </div>
+  <div>
+    <p id="notice"><%= flash[:notice] %></p>
+    <p id="alert"><%= flash[:alert] %></p>
+  </div>
+  <%= breadcrumbs style: :bootstrap, separator: " 🔻 " %>
+    <%= yield %>
+  </body>
+</html>

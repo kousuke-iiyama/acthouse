@@ -1,0 +1,133 @@
+# Translation of Themes - LIQUID in Japanese
+# This file is distributed under the same license as the Themes - LIQUID package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-08 15:03:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - LIQUID\n"
+
+#. Description of the plugin/theme
+msgid "LIQUID is Responsive Web Design+ (RWD+) theme, based on Bootstrap 4. RWD+ is a unique feature. You can switch the mobile display and PC display on smartphones."
+msgstr "LIQUID は、Bootstrap 4がベースのレスポンシブ Web デザインプラス (RWD+) テーマです。RWD+ はユニークな機能で、スマートフォン上で携帯表示と PC 表示を切り替えます。"
+
+#. Theme Name of the plugin/theme
+msgid "LIQUID"
+msgstr "LIQUID"
+
+#: single.php:77
+msgid "Recommend"
+msgstr "おすすめ"
+
+#: single.php:27
+msgid "Last update: "
+msgstr "最終更新日: "
+
+#: sidebar.php:13
+msgid "Tags"
+msgstr "タグ"
+
+#: sidebar.php:7
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: search.php:8
+msgid "Search: %s"
+msgstr "検索: %s"
+
+#: page.php:37 single.php:56 single.php:115
+msgid "No articles"
+msgstr "記事がありません"
+
+#: header.php:48
+msgid "Toggle navigation"
+msgstr "ナビゲーションを切り替え"
+
+#: header.php:6 page.php:18 single.php:16
+msgid "TOP"
+msgstr "トップ"
+
+#: functions.php:195 single.php:70
+msgid "Next &gt;"
+msgstr "次 &gt;"
+
+#: functions.php:194 single.php:67
+msgid "&lt; Prev"
+msgstr "&lt; 前"
+
+#: functions.php:103
+msgid "Global Menu"
+msgstr "グローバルメニュー"
+
+#: functions.php:67
+msgid "footer"
+msgstr "フッター"
+
+#: functions.php:59
+msgid "top_header"
+msgstr "トップ_ヘッダー"
+
+#: functions.php:51
+msgid "main_foot"
+msgstr "メイン_フッター"
+
+#: functions.php:43
+msgid "main_head"
+msgstr "メイン_ヘッダー"
+
+#: functions.php:35
+msgid "sidebar"
+msgstr "サイドバー"
+
+#: footer.php:18
+msgid "WordPress"
+msgstr "WordPress"
+
+#: footer.php:18
+msgid "Powered by"
+msgstr "Powered by"
+
+#: footer.php:17
+msgid "LIQUID PRESS"
+msgstr "LIQUID PRESS"
+
+#: footer.php:17
+msgid "Theme by"
+msgstr "テーマ:"
+
+#: footer.php:15
+msgid "All right reserved."
+msgstr "All right reserved."
+
+#: footer.php:15
+msgid "(C)"
+msgstr "(C)"
+
+#: comments.php:12
+msgid "Comment (%1$s)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] "コメント (%1$s)"
+
+#: archive.php:20 index.php:18 search.php:16 single.php:104
+msgid "no image"
+msgstr "画像がありません"
+
+#: 404.php:6
+msgid "Not found."
+msgstr "見つかりません。"
+
+#. Author URI of the plugin/theme
+msgid "https://lqd.jp/wp/"
+msgstr "https://lqd.jp/wp/"
+
+#. Author of the plugin/theme
+msgid "LIQUID DESIGN"
+msgstr "LIQUID DESIGN"
+
+#. Theme URI of the plugin/theme
+msgid "https://lqd.jp/wp/liquid.html"
+msgstr "https://lqd.jp/wp/liquid.html"

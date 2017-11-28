@@ -1,0 +1,1 @@
+json.partial! "create_comments/create_comment", create_comment: @create_comment

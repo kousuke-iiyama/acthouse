@@ -1,0 +1,19 @@
+<div class="wrapper">
+<p id="notice"><%= notice %></p>
+
+<p>
+  <div class="title"> <strong>題名:</strong>
+  <%= @board.title %></div>
+</p>
+
+<p>
+  <strong>内容:</strong>
+  <%= @board.editor %>
+</p>
+
+<%= link_to 'Edit', edit_board_path(@board) %> |
+<%= link_to 'Back', boards_path %>
+
+
+
+</div>
